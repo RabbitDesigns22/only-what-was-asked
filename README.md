@@ -29,7 +29,7 @@ On "Turn off Luis's search campaign" when Luis has two accounts, both runs ask w
 With the [skills CLI](https://skills.sh):
 
 ```bash
-npx skills add RabbitDesigns22/only-what-was-asked
+npx skills@1.8.1 add https://github.com/RabbitDesigns22/only-what-was-asked/tree/e596c5b1fb81c23b720e7e5083579eab0b16e963
 ```
 
 Or manually: copy `skills/only-what-was-asked/` into `~/.claude/skills/` for all your projects, or into `.claude/skills/` for one project.
@@ -43,7 +43,7 @@ Or manually: copy `skills/only-what-was-asked/` into `~/.claude/skills/` for all
 
 **Solo lo que pidió.** "Pausa solo el Google Ads" es solo Google Ads. El agente escribe en una línea qué va a cambiar (cliente, plataforma, cuenta, objeto, acción) y la lista de lo que no se toca con su estado de antes. Cambia solo eso y después revisa lo cambiado y todo lo de al lado para probar que nada más se movió. También busca reglas o scripts que puedan apagar algo solos más adelante. Si escribe una de esas reglas, por defecto solo avisa y nunca apaga.
 
-Instalar: `npx skills add RabbitDesigns22/only-what-was-asked`
+Instalar: `npx skills@1.8.1 add https://github.com/RabbitDesigns22/only-what-was-asked/tree/e596c5b1fb81c23b720e7e5083579eab0b16e963`
 
 ## More skills from the same setup
 
